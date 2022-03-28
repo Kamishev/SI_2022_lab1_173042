@@ -1,0 +1,5 @@
+milk
+cheese
+bread
+juice
+water
