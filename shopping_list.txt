@@ -1,5 +1,6 @@
 milk x 3
 cheese x 1
 bread x 2
-juice x 4
+cream x 4
 water x 6
+eggs x 10
