@@ -2,4 +2,4 @@ milk x 3
 cheese x 1
 bread x 2
 juice x 4
-water x 6
+water x 5
