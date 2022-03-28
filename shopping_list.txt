@@ -3,3 +3,6 @@ cheese x 2
 bread x 2
 juice x 4
 water x 5
+cream x 4
+eggs x 10
+
