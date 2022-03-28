@@ -1,0 +1,18 @@
+https://github.com/Kamishev/SI_2022_lab1_173042
+4. Правиме клонирање на remote репозиториумот на локално ниво со командата (git clone https://github.com/Kamishev/SI_2022_lab1_173042), потоа влегуваме во директориумот со командата (cd SI_2022_lab1_173042).
+5. Правиме датотека со име shopping_list.txt со командата (nano shopping_list.txt), внесуваме 5 рандом производи секој во нов ред и потоа овој фајл бидејќи не е тракиран од гит го додаваме на сцена со команда (git add .), за на крај да комитнеме со команда (git commit -m "Add 5 items to the shopping list").
+6. Тука го изменуваме фајлот и повторно со (git add .) го додаваме на сцена за на крај да го комитираме со (git commit -m "Add 5 quantities to the items").
+7. Правиме две гранки со командата, (git branch branch1) и (git branch branch2)
+9. Ги синхронизираме сите гранки и комити со (git push --all origin)
+10. Префрлање на гранката branch1 со командата (git checkout branch1)
+11. Изменување на содржината на shopping_list.txt и повторно ставање на сцена и комитирање со командите (git add .) и (git commit -m "Change quantity of item #5")
+12. Префрлување на мастер гранка со команда (git checkout master).
+13. Изменување на содржината на shopping_list.txt и повторно ставање на сцена и комитирање со командите (git add .) и (git commit -m "Change quantity of item #2")
+14. Синхронизација на локално репо со remote репо со команда (git push --all origin)
+15. Префрлање на гранката branch2 со командата (git checkout branch2)
+16. Изменување на содржината на shopping_list.txt и повторно ставање на сцена и комитирање со командите (git add .) и (git commit -m "Modify item #4")
+18. Додавање нова ставка во датотеката shopping_list.txt па потоа го изменуваме минатиот комит, а сето тоа го правиме со командите (nano shopping_list.txt), 
+(git add .), (git commit --amend -m "Modify item #4 and add item #6")
+20. Префрлање на гранката master со (git checkout master) и спојување на branch1 со master со командата (git merge branch1). При ова спојување не се јавија конфликти, но спојувањето беше извршено со рекурзивна стратегија бидејќи на master и branch1 имаше различни комити после нивниот последен заеднички.
+21. При спојувањето на branch2 со master се јави конфликт во датотеката shopping_list_.txt, бидејќи имаше различни квантитети на исти производи и имаше додадено производи на место на други производи, овој конфликт беше решен со отварање на датотеката изменување на содржината, потоа додавање на сцена и правење нов комит, со следните команди: (git merge branch2), (nano shopping_list.txt), (git add .), (git commit -m "Modify shopping_list.txt")
+
